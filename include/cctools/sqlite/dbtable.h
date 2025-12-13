@@ -1,3 +1,6 @@
+//
+// Created by oldbitsnbytes on 2025-12-07.
+//
 ////////////////////////////////////////////////////////////////////////////////////////////
 //   Copyright (C) ...,2025,... by Serge Lussier
 //   serge.lussier@oldbitsnbytes.club / lussier.serge@gmail.com
@@ -8,9 +11,19 @@
 //   Copyrights from authors other than Serge Lussier also apply here.
 //   Open source FREE licences also apply to the code from the author (Serge Lussier)
 //   ----------------------------------------------------------------------------------
-//   Usual GNU FREE GPL-1, MIT...-  apply to this project.
+//   Usual GNU FREE GPL-1,2, MIT... or whatever -  apply to this project.
 //   ----------------------------------------------------------------------------------
 //   NOTE : All source code that I am the only author, I reserve for myself, the rights to
 //   make it to restricted private license.
 ////////////////////////////////////////////////////////////////////////////////////////////
 //------------------------------------------------------------------------------------------
+
+
+#pragma once
+
+namespace cpp::sql
+{
+class dbtable
+{
+};
+} // namespace cpp::sql
