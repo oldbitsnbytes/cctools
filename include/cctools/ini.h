@@ -34,14 +34,14 @@ pragma warning(disable : 4996)
 #   define _CRT_SECURE_NO_WARNINGS
 #   define _SCL_SECURE_NO_WARNINGS
 #   define NOMINMAX
-#   if defined(SSQL_LIB_EXPORT)
-#       define SSQL_LIB  __declspec(dllexport)
+#   if defined(CCTOOLS_LIB_EXPORT)
+#       define CCTOOLS_LIB  __declspec(dllexport)
 #   else
-#       define SSQL_LIB __declspec(dllimport)
+#       define CCTOOLS_LIB __declspec(dllimport)
 #   endif
 
 #else
-#   define SSQL_LIB //__visibility__("default")
+#   define CCTOOLS_LIB //__visibility__("default")
 #endif
 
 // ------------ Mandatory includes ------------

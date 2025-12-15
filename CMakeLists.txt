@@ -79,7 +79,7 @@ install(TARGETS ${WORK}
         RUNTIME DESTINATION bin
 )
 
-INSTALL(FILES ${HEADERS} DESTINATION ${CMAKE_INSTALL_PREFIX}/include/${TARGET_DIR})
+INSTALL(FILES ${HEADERS} DESTINATION ${CMAKE_INSTALL_PREFIX}/include/${WORK})
 
 
 add_custom_target("uninstall_${WORK}" COMMENT "Uninstall installed files")
